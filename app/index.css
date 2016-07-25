@@ -1,0 +1,44 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+#app{
+  height: 100%;
+}
+
+.login-container{
+  height: 100%;
+}
+
+.login-box{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -148px;
+  margin-left: -160px;
+  padding: 50px;
+}
+
+.dropzone{
+  margin: auto;
+  max-width: 500px;
+  height: 250px;
+
+}
+
+.patient-container, .doctor-container{
+  padding: 0 20px;
+}
+
+.patient-documents{
+  display:flex;
+}
+.patient-documents-form{
+  flex-grow:1;
+}
